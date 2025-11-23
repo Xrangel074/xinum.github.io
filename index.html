@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Музыкальный сайт</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .button {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+      img {
+        width: 340px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button" onclick="playMusic()">
+      <img
+        src="https://cdn.glitch.global/9ad8af40-b3aa-42ae-b093-ee7b8d40f7f3/2025-02-13_23-00-24.png?v=1742023848565"
+        alt="Кнопка"
+      />
+    </button>
+    <audio id="audio" loop>
+      <source
+        src="https://cdn.glitch.global/9ad8af40-b3aa-42ae-b093-ee7b8d40f7f3/бенди%20(mp3cut.net).mp3?v=1742028388389"
+        type="audio/mpeg"
+      />
+      Ваш браузер не поддерживает аудио.
+    </audio>
+
+    <script>
+      function playMusic() {
+        const audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+  </body>
+</html>
