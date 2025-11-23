@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f8ff; /* Светло-голубой цвет фона */
+    background-image: url('https://i.pinimg.com/originals/28/4f/ff/284fff695af470e25faeb43e4b6edf82.jpg'); /* Замените 'background.jpg' на путь к вашему изображению */
+    background-size: cover; /* Масштабирует изображение, чтобы оно заполнило весь фон */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Запрещает повторение изображения */
+    color: 333; /* Цвет текста */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
